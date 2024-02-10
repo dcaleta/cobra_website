@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBRA</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="icon" href="media/zep.PNG" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+
+<body>
+    <!--Navigacijska traka-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#pocetna" id="navbar__logo">
+                <img src="images/cobra.png" alt="Cobra Logo">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#pocetna" class="navbar__links" id="home-page">Početna</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#usluge" class="navbar__links" id="about-page">Usluge</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="services-page">O nama</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#exp" class="navbar__links" id="expo_page">Iskustva</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#kontakt" class="navbar__links" id="services-page">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Početna stranica-->
+<div class="hero" id="pocetna">
+    <div class="hero__container">
+            <div class="hero__heading"><h1>COBRA</h1></div>
+        <p class="hero__description">TEHNIČKA ZAŠTITA</p>
+
+        <button class="kontakt__btn">
+            <a href="#contact_btn">KONTAKT</a>
+        </button>
+        <h2 class="K">K</h2>
+    </div>
+</div>
+
+    <!--Pokazni brojevi-->
+    <div class="counter-up" id="pocetna">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fas fa-history"></i></div>
+                <div class="counter">26</div>
+                <div class="text">GODINA RADA</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-users"></i></div>
+                <div class="counter">20K</div>
+                <div class="text">ZADOVOLJNIH KLIJENATA</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-car"></i></div>
+                <div class="counter">20K</div>
+                <div class="text">POPRAVLJENIH AUTA</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fas fa-toolbox"></i></div>
+                <div class="counter">10+</div>
+                <div class="text">RAZLIČITIH POPRAVAKA</div>
+            </div>
+        </div>
+    </div>
+
+<!--Usluge-->
+<div class="usluge" id="usluge">
+        <div class="name">
+            <h2>NAŠE USLUGE</h2>
+        </div>
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/auto-2.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci</p>
+                        <p class="description">autoelektrike</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/auto-1.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci</p>
+                        <p class="description">autoelektronike</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/car-doors.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci</p>
+                        <p class="description">podizača prozora</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/windshield.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci</p>
+                        <p class="description"> brisača</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/car-key.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci </p>
+                        <p class="description">brava</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/car-lock.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci centralnog zaključavanja</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/car-fan.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Popravci</p>
+                        <p class="description">ventilatora</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-content">
+                        <div class="icon"><img src="gifs/car-bulb.gif" alt="Computer man" style="width:108px;height:108px;"></div>
+                        <p class="description">Zamjena </p>
+                        <p class="description"> sijalica</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+
+<!--O nama-->
+    <div class="about-section" id="about">
+        <div class="inner-container">
+            <h1>O NAMA</h1>
+            <p class="text">
+                Obrt Cobra započeo je s radom 1998. godine. Ovlašten je i licenciran od strane MUP-a RH
+                za obavljanje poslova tehničke zaštite vozila i objekata. U najtraženije usluge ubrajaju
+                se popravci autoelektronike, autoelektrike, podizača prozora, brava, centralnog zaključavanja,
+                ventilatora i brisača.
+            </p>
+            <p class="text">
+                Kvalitetna usluga uz pristupačne cijene jamstvo su za naš dugogodišnji i prepoznatljivi rad
+                na ovim prostorima.
+            </p>
+        </div>
+    </div>
+
+<!--Recenzije-->
+<div class="rec_container" id="exp">
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <div class="elfsight-app-76174028-4055-45d1-bbee-46b75f41a7ac" data-elfsight-app-lazy></div>
+</div>
+
+<!--Kontakt-->
+<div class="contact_container" id="kontakt">
+    <div class="naslov">
+        <h2>OBRATITE NAM SE S POVJERENJEM</h2>
+    </div>
+    <div class="main-content">
+        <div class="left box">
+        <p>Lokacija</p>
+            <div class="content">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.8819985633895!2d18.626204899999994!3d45.532580100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ce6bdc3f73ecd%3A0x1ed2c9c8e6c9f2be!2sCOBRA%20TEHNI%C4%8CKA%20ZA%C5%A0TITA%2C%20VL.%20DALIBOR%20%C5%A0TIMAC%2C%20SVETOG%20L.B.%20MANDI%C4%86A%20290!5e0!3m2!1shr!2shr!4v1706135532809!5m2!1shr!2shr"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    
+        <div class="center box">
+            <p>Kontakt</p>
+            <div class="content">
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">Sv.L.B. Mandića 290, 31000 Osijek</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-mobile-alt"></span>
+                    <span class="text">091/5613390</span>
+                </div>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">031/280877</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">cobra.osijek@gmail.com</span>
+                </div>
+                    <p class="text1">
+                        m
+                    </p>
+            </div>
+        </div>
+    
+        <div class="right box" id="contact_btn">
+            <p>Javite nam se!</p>
+            <div class="content">
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Puno ime" id="name" class="item" autocomplete="off">
+                            <div class="error-txt">Ime ne može biti prazno!</div>
+                        </div>
+                        <div class="input-field field">
+                            <input type="text" placeholder="Email adresa" id="email" class="item" autocomplete="off">
+                            <div class="error-txt email">Email adresa ne može biti prazna!</div>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Kontakt broj" id="phone" class="item" autocomplete="off">
+                            <div class="error-txt">Kontakt broj ne može biti prazan!</div>
+                        </div>
+                        <div class="input-field field">
+                            <input type="text" placeholder="Predmet" id="subject" class="item" autocomplete="off">
+                            <div class="error-txt">Predmet ne može biti prazan!</div>
+                        </div>
+                    </div>
+
+                    <div class="textarea-field field">
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="Poruka" class="item"
+                            autocomplete="off"></textarea>
+                        <div class="error-txt">Poruka ne može biti prazna!</div>
+                    </div>
+                    <button type="submit">Pošalji</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--Footer-->
+<footer>
+    <div class="bottom">
+        <center>
+            <span class="credit">Created By <a>Dunja Ćaleta</a></span>
+            <span class="credit_k"><a>?</a></span>
+            <span class="far fa-copyright"></span><span> | All rights reserved 2024</span>
+        </center>
+    </div>
+</footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/formscript.js"></script>
+
+</body>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/counter.js"></script>
+</html>    
